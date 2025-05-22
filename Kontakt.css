@@ -29,7 +29,11 @@
 }
 
 .u-section-1 .u-form-group-2 {
-  opacity: 0.2;
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-3 {
+  color: black !important;
 }
 
 .u-section-1 .u-btn-1 {
@@ -127,6 +131,10 @@
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 754px;
+  }
+
+  .u-section-1 .u-form-group-3 {
+    background-color: rgb(224, 208, 191) !important;
   }
 
   .u-section-1 .u-image-1 {
